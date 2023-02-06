@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>Chore Door!</title>
+  <link href="./style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <body>
+    <div id="nameGame">
+      <img src="./images/logo.svg" alt="logo" class="logo">
+    </div>
+    <div id="instruction">
+      <h3 id="td"><img src="./images/star.svg" alt="star" id="star"> INSTRUCTIONS <img src="./images/star.svg" alt="star" id="star"></h3>
+     
+      
+        <p id="nd"><span>1</span> Hiding behind one of these doors is the ChoreBot.</p>
+        
+        <p id="nd"><span>2</span>  Your mission is to open all of the doors without running into the ChoreBot.</p>
+        
+        <p id="nd"><span>3</span> If your manage to avoid the ChoreBot until the very last door, you win!</p>
+        
+        <p id="nd"><span>4</span> See if you can score a winning streak!</p>
+        <br>
+      
+    </div>
+    <div id="gamePlay">
+      <img src="./images/closed_door.svg" alt="door1" id="door1">
+      <img src="./images/closed_door.svg" alt="door2" id="door2">
+      <img src="./images/closed_door.svg" alt="door3" id="door3">
+      <br><br>
+      <button type="button" id="playAgain">GOOD LUCK!</button>
+  
+      <pre>Current streak:           Best streak:</pre>
+      <div id="current">
+        <p id="currentStreak" style="color:black">0</p>
+      </div>
+      <div id="best">
+        <p id="bestStreak" style="color:black">0</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</body>
+</html>
+

@@ -1,0 +1,62 @@
+body {
+  background-color: #010165;
+  margin: 0px;
+}
+#nameGame {
+  background-color: aquamarine;
+}
+img.logo{
+  display: block; margin-left: auto; margin-right: auto;
+}
+#instruction{
+  width: 600px;
+  margin: auto;
+  font-weight: bold;
+}
+#td{
+  text-align: center;
+  font-family: 'Gill Sans';
+  color: aquamarine;
+}
+span{
+  font-size: 26px;
+  color: #00ffff;
+  padding-right: 70px;
+}
+#nd{
+  color: aliceblue;
+}
+#gamePlay{
+  text-align: center;
+  margin-top: 20px auto;
+  color: aliceblue;
+  font-weight: bold;
+}
+#door1{
+  padding-right: 10px;
+}
+#door2{
+  padding-right: 10px;
+}
+#playAgain{
+  background-color: red;
+  font-weight: bold;
+  color:cornflowerblue;
+}
+#current{
+  position:fixed; left:540px; top:610px; background-color:aquamarine;
+  border-width: 1px;
+   border-style: solid;
+   width: 60px;
+   height: 60px; 
+   color: black;
+}
+#best{
+  position:fixed; left:720px; top:610px; background-color:aquamarine;
+  border-width: 1px;
+   border-style: solid;
+   width: 60px;
+   height: 60px;
+   color: black; 
+}
+
